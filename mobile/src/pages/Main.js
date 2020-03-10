@@ -61,7 +61,7 @@ function Main({ navigation }) {
         techs
       }
     });
-    
+
     setDevs(response.data.devs);
     setupWebsocket();
   }
@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
   loadButton: {
     width: 50,
     height: 50,
-    backgroundColor: '#8E4Dff',
+    backgroundColor: '#131633',
     borderRadius: 25,
     justifyContent: 'center',
     alignItems: 'center',
